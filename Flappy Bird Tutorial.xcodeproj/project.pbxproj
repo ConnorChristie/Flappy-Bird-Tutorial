@@ -14,6 +14,10 @@
 		B374D01A194657CE0032C87A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B374D018194657CE0032C87A /* Main.storyboard */; };
 		B374D01C194657CE0032C87A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B374D01B194657CE0032C87A /* Images.xcassets */; };
 		B374D028194657CE0032C87A /* Flappy_Bird_TutorialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B374D027194657CE0032C87A /* Flappy_Bird_TutorialTests.swift */; };
+		B3C8E9FA1958A9DB00B8E367 /* BotPipe.png in Resources */ = {isa = PBXBuildFile; fileRef = B3C8E9F61958A9DB00B8E367 /* BotPipe.png */; };
+		B3C8E9FE1958AA0300B8E367 /* TopPipe.png in Resources */ = {isa = PBXBuildFile; fileRef = B3C8E9FD1958AA0300B8E367 /* TopPipe.png */; };
+		B3C8EA011958AC6300B8E367 /* Background.png in Resources */ = {isa = PBXBuildFile; fileRef = B3C8E9FF1958AC6300B8E367 /* Background.png */; };
+		B3C8EA021958AC6300B8E367 /* Ground.png in Resources */ = {isa = PBXBuildFile; fileRef = B3C8EA001958AC6300B8E367 /* Ground.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +42,10 @@
 		B374D021194657CE0032C87A /* Flappy Bird TutorialTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Flappy Bird TutorialTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B374D026194657CE0032C87A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B374D027194657CE0032C87A /* Flappy_Bird_TutorialTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flappy_Bird_TutorialTests.swift; sourceTree = "<group>"; };
+		B3C8E9F61958A9DB00B8E367 /* BotPipe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BotPipe.png; sourceTree = "<group>"; };
+		B3C8E9FD1958AA0300B8E367 /* TopPipe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TopPipe.png; sourceTree = "<group>"; };
+		B3C8E9FF1958AC6300B8E367 /* Background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Background.png; sourceTree = "<group>"; };
+		B3C8EA001958AC6300B8E367 /* Ground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Ground.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +87,7 @@
 		B374D00D194657CE0032C87A /* Flappy Bird Tutorial */ = {
 			isa = PBXGroup;
 			children = (
+				B3C8E9EC1958A92600B8E367 /* Images */,
 				B374D010194657CE0032C87A /* AppDelegate.swift */,
 				B31B757119465F0F002C67D5 /* GameScene.sks */,
 				B374D014194657CE0032C87A /* GameScene.swift */,
@@ -113,6 +122,17 @@
 				B374D026194657CE0032C87A /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B3C8E9EC1958A92600B8E367 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				B3C8E9FF1958AC6300B8E367 /* Background.png */,
+				B3C8EA001958AC6300B8E367 /* Ground.png */,
+				B3C8E9FD1958AA0300B8E367 /* TopPipe.png */,
+				B3C8E9F61958A9DB00B8E367 /* BotPipe.png */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -197,8 +217,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				B374D01C194657CE0032C87A /* Images.xcassets in Resources */,
+				B3C8E9FE1958AA0300B8E367 /* TopPipe.png in Resources */,
 				B31B757219465F0F002C67D5 /* GameScene.sks in Resources */,
+				B3C8EA011958AC6300B8E367 /* Background.png in Resources */,
 				B374D01A194657CE0032C87A /* Main.storyboard in Resources */,
+				B3C8E9FA1958A9DB00B8E367 /* BotPipe.png in Resources */,
+				B3C8EA021958AC6300B8E367 /* Ground.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
